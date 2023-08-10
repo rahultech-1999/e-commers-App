@@ -1,0 +1,254 @@
+name: e_commerce_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/rahul.jpeg.jpeg
+    - assets/images/Nike-shoes.jpg
+    - assets/images/Nike-shoes1.jpg
+    - assets/images/Nike-shoes2.jpg
+    - assets/images/Nike-shoes3.jpg
+    - assets/images/Nike-shoes4.jpg
+    - assets/images/myntra-logo.png
+    - assets/images/man-image.jpeg
+    - assets/images/women-image.jpeg
+    - assets/images/kids-image.jpeg
+    - assets/images/girl1-image.webp
+    - assets/images/girl2-image.webp
+    - assets/images/girl3-image.webp
+    - assets/images/girl4-image.webp
+    - assets/images/girl5-image.webp
+    - assets/images/girl6-image.jpg
+    - assets/images/girl7-image.jpeg
+    - assets/images/watch1-image.webp
+    - assets/images/watch2-image.jpg
+    - assets/images/watch3-image.jpg
+    - assets/images/watch4-image.jpg
+    - assets/images/watch5-image.webp
+    - assets/images/watch2-image.jpg
+    - assets/images/watch7-image.webp
+    - assets/images/watch8-image.jpg
+    - assets/images/watch9-image.jpg
+    - assets/images/watch10-image.jpg
+    - assets/images/jewellery1-image.webp
+    - assets/images/jewellery2-image.webp
+    - assets/images/jewellery3-image.webp
+    - assets/images/jewellery4-image.webp
+    - assets/images/jewellery5-image.webp
+    - assets/images/jewellery6-image.webp
+    - assets/images/jewellery7-image.webp
+    - assets/images/jewellery8-image.webp
+    - assets/images/jewellery9-image.webp
+    - assets/images/jewellery10-image.webp
+    - assets/images/man1-image.webp
+    - assets/images/woman1-image.jpg
+    - assets/images/kids1-image.jpg
+    - assets/images/beauty-image.jpg
+    - assets/images/shoes-image(v).webp
+    - assets/images/shoees-image(vi).webp
+    - assets/images/shoes-image(vii).webp
+    - assets/images/shoes-image(viii).webp
+    - assets/images/shoes-image(ix).webp
+    - assets/images/shoes-image(x).webp
+    - assets/images/shoes1-image(i).webp
+    - assets/images/shoes1-image(ii).webp
+    - assets/images/shoes1-image(iii).webp
+    - assets/images/shoes1-image(iv).webp
+    - assets/images/shoes1-image(v).webp
+    - assets/images/shoes1-image(vi).webp
+    - assets/images/shoes1-image(vii).webp
+    - assets/images/shoes1-image(viii).webp
+    - assets/images/shoes1-image(ix).webp
+    - assets/images/shoes1-image(x).webp
+    - assets/images/shoes2-image(i).webp
+    - assets/images/shoes2-image(ii).webp
+    - assets/images/shoes2-image(iii).webp
+    - assets/images/shoes2-image(iv).jpeg
+    - assets/images/shoes2-image(v).jpeg
+    - assets/images/shoes2-image(vi).webp
+    - assets/images/shoes2-image(vii).webp
+    - assets/images/shoes2-image(viii).webp
+    - assets/images/shoes2-image(ix).webp
+    - assets/images/T-shirt3-image.webp
+    - assets/images/T-shirt3-image2.jpg
+    - assets/images/T-shirt3-image3.jpg
+    - assets/images/T-shirt3-image4.jpg
+    - assets/images/T-shirt3-image5.jpg
+    - assets/images/T-shirt3-image6.jpg
+    - assets/images/T-shirt1-image.webp
+    - assets/images/T-shirt2-image.webp
+    - assets/images/T-shirt3-image.webp
+    - assets/images/T-shirt4-image.webp
+    - assets/images/T-shirt5-image.webp
+    - assets/images/T-shirt6-image.webp
+    - assets/images/T-shirt7-image.webp
+    - assets/images/T-shirt8-image.webp
+    - assets/images/T-shirt9-image.webp
+    - assets/images/T-shirt10-image.webp
+    - assets/images/women-image1.jpg
+    - assets/images/women-image2.jpg
+    - assets/images/women-image3.jpg
+    - assets/images/women-image4.jpg
+    - assets/images/women-image5.jpg
+    - assets/images/women-image.jpeg
+    - assets/images/women1-image.jpg
+    - assets/images/women2-image.jpg
+    - assets/images/women3-image.jpg
+    - assets/images/women4-image.jpg
+    - assets/images/women5-image.jpg
+    - assets/images/women6-image.jpg
+    - assets/images/women7-image.webp
+    - assets/images/women8-image.webp
+    - assets/images/women9-image.webp
+    - assets/images/women10-image.jpg
+    - assets/images/women11-image.jpeg
+    - assets/images/women12-image.webp
+    - assets/images/women13-image.webp
+    - assets/images/women14-image.webp
+    - assets/images/women15-image.webp
+    - assets/images/watch01-image.jpg
+    - assets/images/watch02-image.jpg
+    - assets/images/watch03-image.jpg
+    - assets/images/watch04-image.jpg
+    - assets/images/watch05-image.jpg
+    - assets/images/watch06-image.jpg
+    - assets/images/jevellery01-image.jpg
+    - assets/images/jevellery02-image.jpg
+    - assets/images/jevelery03-image.jpg
+    - assets/images/jevellery04-image.jpg
+    - assets/images/jevellery05-image.jpg
+    - assets/images/jevellery06-image.jpg
+    - assets/images/jevellery07-image.jpg
+    - assets/images/jevellery08-image.jpg
+    - assets/images/jevellery09-image.jpg
+    - assets/images/jevellery10-image.jpg
+    - assets/images/jevellery11-image.jpg
+    - assets/images/jevellery12-image.jpg
+    - assets/images/jevellery13-image.jpg
+    - assets/images/jevellery14-image.jpg
+    - assets/images/jevellery15-image.jpg
+    - assets/images/jevellery16-image.jpg
+    - assets/images/jevellery17-image.jpg
+    - assets/images/jevellery18-image.jpg
+    - assets/images/jevellery19-image.jpg
+    - assets/images/jevellery20-image.jpg
+    - assets/images/jevellery21-image.jpg
+    - assets/images/jevellery22-image.jpg
+    - assets/images/jevellery23-image.jpg
+    - assets/images/jevellery24-image.jpg
+    - assets/images/jevellery25-image.jpg
+    - assets/images/jevellery26-image.jpg
+    - assets/images/jevellery27-image.jpg
+    - assets/images/jevellery29-image.jpg
+    - assets/images/jevellery30-image.jpg
+    - assets/images/jevellery31-image.jpg
+    - assets/images/jevellery32-image.jpg
+    - assets/images/jevellery33-image.jpg
+    - assets/images/jevellery34-image.jpg
+    - assets/images/jevellery35-image.jpg
+    - assets/images/jevellery36-image.jpg
+    - assets/images/jevellery37-image.jpg
+    - assets/images/jevellery38-image.jpg
+    - assets/images/jevellery39-image.jpg
+    - assets/images/jevellery40-image.jpg
+    - assets/images/jevellery41-image.jpg
+    - assets/images/jevellery42-image.jpg
+    - assets/images/jevellery43-image.jpg
+    - assets/images/jevellery44-image.jpg
+    - assets/images/jevellery45-image.jpg
+    - assets/images/jevellery46-image.jpg
+
+
+
+
+
+
+
+
+
+
+        # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
